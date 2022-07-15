@@ -1,0 +1,138 @@
+.UserInfoPanelContainer{
+
+    display: flex;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    width:100%;
+    height: 200px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    align-items: center;
+    overflow: hidden;
+    overflow-x: auto;
+    min-height: 200px;
+    font-family: 'Space Grotesk', sans-serif;
+    .PlaqueContainer{
+        padding-right: 10px;
+        height: 80%;
+    }
+    .Center{
+        width: inherit;
+        padding: 5px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .Top{
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: flex-end;
+            .Info{
+                font-size: 20px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 5px;
+                font-size: 17px;
+                font-weight: bold;
+            }
+        }
+        .Bottom{
+            margin-top: 10px;
+            height: max-content;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border: 1px solid #85d8db ;
+                    .TaskItem{
+                        width: 100%;
+                        position: relative;
+                        
+                        border: 1px solid transparent;
+                        
+                        background-color: #9edbff34;
+                        font-size: 15px;
+                        .TaskName{
+                            text-align: center;
+                            height: 100%;
+                            padding: 5px 5px;
+                            
+
+                            
+                            
+                        }
+                        .Detail{
+                            position: absolute;
+                            display: flex;
+                            flex-direction: column;
+                            // right: 0;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            transition: ease-in-out 0.1s;
+                            bottom: 120%;
+                            visibility: hidden;
+                            opacity: 0;
+                            border-radius: 5px;
+                            border: 1px solid #8cd1c0;
+                            background-color: #1d6d6d;
+                            box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+                            color: #fff;
+                           backdrop-filter: blur(2px);
+                            z-index: 5;
+                            .Section{
+                                padding: 5px 10px;
+                                white-space: nowrap;
+                                text-align: left;
+                            }
+
+                            &::before{
+                                content: "";
+                                width: 10px;
+                                height: 10px;
+                                aspect-ratio: 1;
+                                position: absolute;
+                                top: 95%;
+                                left: 50%;
+                    
+                                background-color: #1d6d6d;
+                                transform: translateX(-50%) rotate(45deg) ;
+                            }
+                        }
+
+                        &.Valid{
+                            cursor: pointer;
+                            &:hover .Detail{
+                                visibility: visible;
+                                opacity: 1;
+                                
+                            }
+                            &:hover{
+                                font-weight: 500;
+
+                                background-color: #279191;
+                                color: #fff;
+                            }
+                        }
+                        &.Invalid{
+                            background-color: rgba(235, 235, 235, 0.336);
+                            color: rgb(153, 153, 153);
+                            border: 1px solid transparent;
+                        }
+                        
+                    }
+        }
+    }
+    .Avatar{
+        border: 1px solid rgb(158, 158, 158);
+        min-width: 150px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        img{
+            height: 100%;
+
+        }
+    }
+}

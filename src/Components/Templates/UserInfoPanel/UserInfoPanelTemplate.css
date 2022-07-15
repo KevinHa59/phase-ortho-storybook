@@ -1,0 +1,126 @@
+.UserInfoPanelContainer {
+  display: flex;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  align-items: center;
+  overflow: hidden;
+  overflow-x: auto;
+  min-height: 200px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.UserInfoPanelContainer .PlaqueContainer {
+  padding-right: 10px;
+  height: 80%;
+}
+.UserInfoPanelContainer .Center {
+  width: inherit;
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.UserInfoPanelContainer .Center .Top {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.UserInfoPanelContainer .Center .Top .Info {
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.UserInfoPanelContainer .Center .Bottom {
+  margin-top: 10px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #85d8db;
+}
+.UserInfoPanelContainer .Center .Bottom .TaskItem {
+  width: 100%;
+  position: relative;
+  border: 1px solid transparent;
+  background-color: rgba(158, 219, 255, 0.2039215686);
+  font-size: 15px;
+}
+.UserInfoPanelContainer .Center .Bottom .TaskItem .TaskName {
+  text-align: center;
+  height: 100%;
+  padding: 5px 5px;
+}
+.UserInfoPanelContainer .Center .Bottom .TaskItem .Detail {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: ease-in-out 0.1s;
+  bottom: 120%;
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 5px;
+  border: 1px solid #8cd1c0;
+  background-color: #1d6d6d;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  z-index: 5;
+}
+.UserInfoPanelContainer .Center .Bottom .TaskItem .Detail .Section {
+  padding: 5px 10px;
+  white-space: nowrap;
+  text-align: left;
+}
+.UserInfoPanelContainer .Center .Bottom .TaskItem .Detail::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  aspect-ratio: 1;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  background-color: #1d6d6d;
+  transform: translateX(-50%) rotate(45deg);
+}
+.UserInfoPanelContainer .Center .Bottom .TaskItem.Valid {
+  cursor: pointer;
+}
+.UserInfoPanelContainer .Center .Bottom .TaskItem.Valid:hover .Detail {
+  visibility: visible;
+  opacity: 1;
+}
+.UserInfoPanelContainer .Center .Bottom .TaskItem.Valid:hover {
+  font-weight: 500;
+  background-color: #279191;
+  color: #fff;
+}
+.UserInfoPanelContainer .Center .Bottom .TaskItem.Invalid {
+  background-color: rgba(235, 235, 235, 0.336);
+  color: rgb(153, 153, 153);
+  border: 1px solid transparent;
+}
+.UserInfoPanelContainer .Avatar {
+  border: 1px solid rgb(158, 158, 158);
+  min-width: 150px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.UserInfoPanelContainer .Avatar img {
+  height: 100%;
+}/*# sourceMappingURL=UserInfoPanelTemplate.css.map */

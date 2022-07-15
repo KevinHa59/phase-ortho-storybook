@@ -1,0 +1,30 @@
+.YearWithCompany {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.YearWithCompany .YearIconContainer {
+  white-space: nowrap;
+  color: #000;
+  font-weight: 100;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
+  font-size: 20px;
+  z-index: 2;
+}
+.YearWithCompany .YearIconContainer .YearIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}/*# sourceMappingURL=YearWithCompanyTemplate.css.map */

@@ -1,0 +1,156 @@
+
+.CharBarContainer{
+    display: flex;
+    flex-direction: column;
+    height:250px;
+    padding: 10px 50px;
+    padding-top: 30px;
+    overflow: hidden;
+    overflow-x: auto;
+    background-color: #fff;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Space Grotesk', sans-serif;
+    .MainChartContainer{
+        height: 90%;
+  
+        .CharBarList{
+            width: 100%;
+            height: inherit;
+            display: flex;
+            border-left: 1px solid #ccc;
+
+            position: relative;
+            .BackgroundMeasure{
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                .Line{
+                    position: absolute;    
+                    height: 1px;
+                    background-color: rgb(226, 226, 226);
+                    width: 100%;
+                    font-size: 12px;
+                    .Label{
+                        position: absolute;
+                        right: 100%;
+                        bottom: 50%;
+                         transform: translateY(50%);
+                         padding-right: 5px;
+                         
+                     }
+                     &.SubLine{
+                        background-color: transparent;
+                        border-bottom: 1px dashed rgb(223, 221, 221);
+                        font-size: 11px !important;
+                     }
+                    &._0{
+                        bottom: 0;
+                    }
+                    &._1{
+                        bottom: 10%;
+                    }
+                    &._2{
+                        bottom: 20%;
+                    }
+                    &._3{
+                        bottom: 30%;
+                    }
+                    &._4{
+                        bottom: 40%;
+                    }
+                    &._5{
+                        bottom: 50%;
+                    }
+                    &._6{
+                        bottom: 60%;
+                    }
+                    &._7{
+                        bottom: 70%;
+                    }
+                    &._8{
+                        bottom: 80%;
+                    }
+                    &._9{
+                        bottom: 90%;
+                    }
+                    &._10{
+                        bottom: 100%;
+                    }
+
+                }
+            }
+            .ChartBarItem{
+                height: calc(100%);
+                width: 100%;
+                padding: 0 20px;
+                &:hover{
+                    background-color: rgb(233, 233, 233);
+                }
+                .BarDetail{
+                    
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: center;
+                    height: inherit;
+                    gap: 0px;
+                    .Value{
+                        font-size: 13px;
+                        width: 100%;
+                        
+                        border: 0px solid #48484871;
+                        color: #fff;
+                        font-weight: bold;
+                        
+                        transform-origin: bottom;
+                        text-align: center;
+                        position: relative;
+                        opacity: 0.8;
+                        .BarValue{
+                            position: absolute;
+                            bottom: 100%;
+                            left: 50%;
+                            transform: translateX(-50%);
+                        }
+                    }
+                }
+                .Label{
+                    font-weight: bold;
+                    font-size: 14px;
+                    padding: 5px 0;
+                    text-align: center;
+                }
+
+            }
+        }
+
+    }
+    .Note{
+        margin-top: 10px;
+        display: flex;
+
+        justify-content: center;
+        .ValueNote{
+            padding: 0px 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: bold;
+            .ColorBox{
+                width: 20px;
+                height: 20px;
+                
+                // &._1{
+                //     background-color: #00818F;
+                // }
+                // &._2{
+                //     background-color: #4DBBC7;
+                // }
+                // &._3{
+                //     background-color: #99F5FF;
+                // }
+            }
+        }
+    }
+}

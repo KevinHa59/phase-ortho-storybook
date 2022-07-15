@@ -1,0 +1,31 @@
+.PerformanceDialContainer {
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 0px 30px;
+  padding-top: 16px;
+  padding-bottom: 13px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.PerformanceDialContainer .Header {
+  font-size: 18px;
+  font-size: 2.5vw;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  white-space: nowrap;
+}
+.PerformanceDialContainer .CircularContainer {
+  margin-top: 9px;
+  position: relative;
+}
+.PerformanceDialContainer .CircularContainer .Dial {
+  font-weight: bold;
+}
+.PerformanceDialContainer .CircularContainer .DialOver {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}/*# sourceMappingURL=DialTemplate.css.map */

@@ -1,0 +1,105 @@
+.SearchPanelContainer {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.SearchPanelContainer .InputContainer {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid rgb(141, 141, 141);
+  padding: 3px;
+}
+.SearchPanelContainer .InputContainer .Input {
+  outline: none;
+  border: none;
+  padding: 3px 10px;
+  font-size: 17px;
+}
+.SearchPanelContainer .InputContainer .Icon {
+  font-size: 25px;
+  height: 100%;
+  aspect-ratio: 1;
+}
+.SearchPanelContainer .ResultList {
+  position: absolute;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  top: 100%;
+  background-color: rgb(201, 200, 200);
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.473);
+  visibility: hidden;
+  opacity: 0;
+  transform-origin: top;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  overflow: hidden;
+  transition: ease-in-out 0.1s;
+}
+.SearchPanelContainer .ResultList .ResultItem {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: ease-in-out 0.1s;
+  position: relative;
+}
+.SearchPanelContainer .ResultList .ResultItem .Manager {
+  position: absolute;
+  z-index: 2;
+  width: 20px;
+  top: 3px;
+  left: 3px;
+  aspect-ratio: 1;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(252, 19, 19);
+  background-color: #fff;
+  border: 1px solid rgb(165, 165, 165);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SearchPanelContainer .ResultList .ResultItem .Avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1px solid rgb(121, 121, 121);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.SearchPanelContainer .ResultList .ResultItem .Initial {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1px solid rgb(121, 121, 121);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-weight: bold;
+}
+.SearchPanelContainer .ResultList .ResultItem .Detail .Name,
+.SearchPanelContainer .ResultList .ResultItem .Detail .Email {
+  text-align: left;
+}
+.SearchPanelContainer .ResultList .ResultItem:hover {
+  background-color: rgb(231, 231, 231);
+}
+.SearchPanelContainer:focus-within .ResultList {
+  visibility: visible;
+  opacity: 1;
+}/*# sourceMappingURL=SearchPanel.css.map */

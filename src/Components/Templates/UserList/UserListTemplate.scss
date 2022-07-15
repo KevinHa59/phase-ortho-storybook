@@ -1,0 +1,71 @@
+@import "../../../Styles/stylesCombine";
+.EmployeeContainer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 10px;
+    .ListController{
+        display: flex;
+        justify-content: space-between;
+        margin: 5px 0px;
+        padding: 5px 10px;
+        position: relative;
+        border-bottom: 1px solid rgb(216, 214, 214);
+        &::before{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 3px;
+            height: 80%;
+            background-color: #3b5df5;
+        }
+        .Control{
+            display: flex;
+            gap:10px;
+            align-items: center;
+            .Input{
+                outline: none;
+                padding: 5px 10px;
+                border-radius: 5px;
+                border: 1px solid rgb(168, 168, 168);
+            }
+            .Sort{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+        }
+    }
+    .ListHeader{
+        display: grid;
+        font-weight: 500;
+        grid-template-columns: 1.5fr 2fr 2fr 4fr 2fr 3fr 3fr;
+
+        background-color: rgb(104, 69, 230);
+        padding: 10px 0px;
+        color: #fff;
+        .Label{
+            text-align: left;
+            text-shadow: 0px 0px 3px #000;
+            &.Center{
+                text-align: center;
+            }
+        }
+    }
+    .ListBody{
+        overflow: hidden;
+        overflow-y: auto;
+        @include Scroll-Bar;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        
+        
+    }
+}
