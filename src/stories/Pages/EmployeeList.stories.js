@@ -6,15 +6,15 @@ export default {
    * See https://storybook.js.org/docs/react/configure/overview#configure-story-loading
    * to learn how to generate automatic titles
    */
-  title: 'PhaseOrtho/Component/UserProfile',
+  title: 'PhaseOrtho/SamplePages/EmployeeList',
   component: UserListTemplate,
 };
 
 //👇 We create a “template” of how args map to rendering
 const Template = (args) => <UserListTemplate {...args} />;
 const employeeData = EmployeesData;
-export const UserInfoPanelList = Template.bind({});
-UserInfoPanelList.args = {
-  AvatarVisibility: true,
+export const EmployeeList = Template.bind({});
+EmployeeList.args = {
+  AvatarVisibility: false,
   employeesData: employeeData,
 };

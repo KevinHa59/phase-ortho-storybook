@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import './SearchPanel.css';
 import { Employees } from '../../../Data/Employees';
 import { MdSearch, MdClose } from 'react-icons/md';
+import SearchBoxTemplate from '../Controller/SearchBox/SearchBoxTemplate';
 export default function SearchPanel({ EmployeeData, limit, showAvatar }) {
   const Data = EmployeeData || Employees;
   const [searchText, setSearchText] = useState('');
@@ -35,7 +36,8 @@ export default function SearchPanel({ EmployeeData, limit, showAvatar }) {
   return (
     <div className="SearchPanelContainer">
       <div className="InputContainer">
-        <input type="text" className="Input" placeholder="Enter Name..." value={searchText} onChange={(value) => setSearchText(value.target.value)} />
+        <SearchBoxTemplate placeholder={'Enter...'} value={searchText} setValue={setSearchText} onChange={(value) => setSearchText(value.target.value)} />
+        {/* <input type="text" className="Input" placeholder="Enter Name..." value={searchText} onChange={(value) => setSearchText(value.target.value)} />
         {searchText.length === 0 ? (
           <MdSearch className="Icon" />
         ) : (
@@ -45,7 +47,7 @@ export default function SearchPanel({ EmployeeData, limit, showAvatar }) {
               setSearchText('');
             }}
           />
-        )}
+        )} */}
       </div>
       <div className="ResultList">
         {searchResult?.map((employee) => {

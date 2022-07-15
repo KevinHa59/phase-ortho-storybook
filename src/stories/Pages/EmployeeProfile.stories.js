@@ -6,12 +6,12 @@ export default {
    * See https://storybook.js.org/docs/react/configure/overview#configure-story-loading
    * to learn how to generate automatic titles
    */
-  title: 'PhaseOrtho/Pages/UserProfile',
+  title: 'PhaseOrtho/SamplePages/EmployeeProfile',
   component: UserProfileTemplate,
 };
 
 //👇 We create a “template” of how args map to rendering
 const Template = (args) => <UserProfileTemplate {...args} />;
 
-export const UserProfile = Template.bind({});
-UserProfile.args = {};
+export const EmployeeProfile = Template.bind({});
+EmployeeProfile.args = {};

@@ -3,11 +3,12 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    z-index: 5;
     .InputContainer{
         display: flex;
         align-items: center;
         border-radius: 5px;
-        border: 1px solid rgb(141, 141, 141);
+
         padding: 3px;
         .Input {
             outline: none;
@@ -26,10 +27,11 @@
         position: absolute;
         width: max-content;
         top: 100%;
-        background-color: rgb(201, 200, 200);
+        
+        background-color: rgb(233, 233, 233);
         border-radius: 5px;
 
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.473);
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
         visibility: hidden;
         opacity: 0;
         transform-origin: top;
@@ -71,7 +73,9 @@
                 height: 50px;
                 border-radius: 50%;
                 margin-right: 10px;
-                border: 1px solid rgb(121, 121, 121);
+                // border: 1px solid rgb(121, 121, 121);
+                background-color: #fff;
+                box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -82,7 +86,9 @@
                 height: 50px;
                 border-radius: 50%;
                 margin-right: 10px;
-                border: 1px solid rgb(121, 121, 121);
+                // border: 1px solid rgba(121, 121, 121);
+                background-color: #fff;
+                box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
                 display: flex;
                 justify-content: center;
                 align-items: center;

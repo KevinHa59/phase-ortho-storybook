@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Design.css';
-import SearchPanel from '../Templates/SearchPanel/SearchPanel';
+
 export default function Design() {
   return (
-    <div>
-      <SearchPanel showAvatar={false} />
+    <div className="Box">
+      <div className="Name">Tong</div>
+      <div className="Email">t@gmail.com</div>
     </div>
   );
 }
