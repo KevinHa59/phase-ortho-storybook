@@ -1,1 +1,9 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"ChartBar2.css"}
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "ChartBar2.scss"
+    ],
+    "names": [],
+    "file": "ChartBar2.css"
+}

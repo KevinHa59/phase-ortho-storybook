@@ -1,1 +1,9 @@
-{"version":3,"sources":["UserProfileTemplate.scss","UserProfileTemplate.css"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,sBAAA;EACA,aAAA;EACA,SAAA;ACCJ","file":"UserProfileTemplate.css"}
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,qBAAqB,CAAA;EACjB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,OAAO,EAAE,IAAI;EACb,GAAG,EAAE,IAAI;CACZ",
+    "sources": [
+        "UserProfileTemplate.scss"
+    ],
+    "names": [],
+    "file": "UserProfileTemplate.css"
+}

@@ -1,1 +1,12 @@
-{"version":3,"sources":["Design.scss","Styles/_variable.scss","Styles/_mixin.scss","Design.css"],"names":[],"mappings":"AAGI;EACI,WCJQ;EDKR,YAAA;EACA,aAAA;EELJ,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,sBAAA;ACIJ;AHCI;EACI,WCVQ;EDWR,YAAA;EACA,aAAA;EEXJ,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,sBAAA;ACaJ","file":"Design.css"}
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "Design.scss",
+        "Styles/_stylesCombination.scss",
+        "Styles/_mixin.scss",
+        "Styles/_variable.scss"
+    ],
+    "names": [],
+    "file": "Design.css"
+}

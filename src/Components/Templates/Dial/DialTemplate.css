@@ -4,28 +4,41 @@
   padding: 0px 30px;
   padding-top: 16px;
   padding-bottom: 13px;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .PerformanceDialContainer .Header {
   font-size: 18px;
   font-size: 2.5vw;
-  color: rgb(0, 0, 0);
+  color: black;
   text-align: center;
   white-space: nowrap;
 }
+
 .PerformanceDialContainer .CircularContainer {
   margin-top: 9px;
   position: relative;
 }
+
 .PerformanceDialContainer .CircularContainer .Dial {
   font-weight: bold;
 }
+
 .PerformanceDialContainer .CircularContainer .DialOver {
   position: absolute;
   left: 0;
   top: 0;
   z-index: 2;
-}/*# sourceMappingURL=DialTemplate.css.map */
+}
+/*# sourceMappingURL=DialTemplate.css.map */

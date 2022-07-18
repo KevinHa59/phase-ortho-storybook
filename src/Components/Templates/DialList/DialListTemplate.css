@@ -1,6 +1,9 @@
 .DialListContainer {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  -ms-grid-columns: (minmax(150px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 40px;
   padding: 0px;
-}/*# sourceMappingURL=DialListTemplate.css.map */
+}
+/*# sourceMappingURL=DialListTemplate.css.map */

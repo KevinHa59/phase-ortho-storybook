@@ -1,17 +1,1 @@
 @import "./Styles/stylesCombination";
-
-.Box{
-    .Name{
-        color: $textMainColor;
-        width: 300px;
-        height: 400px;
-        @include FlexCenter;
-    }
-    .Email{
-        color: $textMainColor;
-        width: 700px;
-        height: 300px;
-        
-        @include FlexCenter;
-    }
-}

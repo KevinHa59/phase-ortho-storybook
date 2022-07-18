@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
-import './Design.css';
-
+import React, { useState } from "react";
+import "./Design.css";
+import TeamSchedulePageTemplate from "../Templates/TeamSchedulePage/TeamSchedulePageTemplate";
 export default function Design() {
   return (
-    <div className="Box">
-      <div className="Name">Tong</div>
-      <div className="Email">t@gmail.com</div>
+    <div>
+      <TeamSchedulePageTemplate />
     </div>
   );
 }
