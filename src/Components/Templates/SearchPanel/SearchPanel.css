@@ -3,83 +3,55 @@
   width: -moz-max-content;
   width: max-content;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   z-index: 5;
 }
-
 .SearchPanelContainer .InputContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   border-radius: 5px;
   padding: 3px;
 }
-
 .SearchPanelContainer .InputContainer .Input {
   outline: none;
   border: none;
   padding: 3px 10px;
   font-size: 17px;
 }
-
 .SearchPanelContainer .InputContainer .Icon {
   font-size: 25px;
   height: 100%;
   aspect-ratio: 1;
 }
-
 .SearchPanelContainer .ResultList {
   position: absolute;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   top: 100%;
-  background-color: #e9e9e9;
+  background-color: rgb(233, 233, 233);
   border-radius: 5px;
-  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   visibility: hidden;
   opacity: 0;
-  -webkit-transform-origin: top;
-          transform-origin: top;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  transform-origin: top;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 1px;
   overflow: hidden;
-  -webkit-transition: ease-in-out 0.1s;
   transition: ease-in-out 0.1s;
 }
-
 .SearchPanelContainer .ResultList .ResultItem {
   background-color: #fff;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
   padding: 5px 10px;
   cursor: pointer;
-  -webkit-transition: ease-in-out 0.1s;
   transition: ease-in-out 0.1s;
   position: relative;
 }
-
 .SearchPanelContainer .ResultList .ResultItem .Manager {
   position: absolute;
   z-index: 2;
@@ -89,73 +61,47 @@
   aspect-ratio: 1;
   font-size: 12px;
   font-weight: bold;
-  color: #fc1313;
+  color: rgb(252, 19, 19);
   background-color: #fff;
-  border: 1px solid #a5a5a5;
+  border: 1px solid rgb(165, 165, 165);
   border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .SearchPanelContainer .ResultList .ResultItem .Avatar {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   margin-right: 10px;
   background-color: #fff;
-  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-          box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
-
 .SearchPanelContainer .ResultList .ResultItem .Initial {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   margin-right: 10px;
   background-color: #fff;
-  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-          box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
   font-weight: bold;
 }
-
 .SearchPanelContainer .ResultList .ResultItem .Detail .Name,
 .SearchPanelContainer .ResultList .ResultItem .Detail .Email {
   text-align: left;
 }
-
 .SearchPanelContainer .ResultList .ResultItem:hover {
-  background-color: #e7e7e7;
+  background-color: rgb(231, 231, 231);
 }
-
 .SearchPanelContainer:focus-within .ResultList {
   visibility: visible;
   opacity: 1;
-}
-/*# sourceMappingURL=SearchPanel.css.map */
+}/*# sourceMappingURL=SearchPanel.css.map */

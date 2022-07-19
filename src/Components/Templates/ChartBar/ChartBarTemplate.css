@@ -1,36 +1,25 @@
 .CharBarContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   height: 250px;
   padding: 10px 50px;
   padding-top: 30px;
   overflow: hidden;
   overflow-x: auto;
   background-color: #fff;
-  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
-  font-family: 'Space Grotesk', sans-serif;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  font-family: "Space Grotesk", sans-serif;
 }
-
 .CharBarContainer .MainChartContainer {
   height: 90%;
 }
-
 .CharBarContainer .MainChartContainer .CharBarList {
   width: 100%;
   height: inherit;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   border-left: 1px solid #ccc;
   position: relative;
 }
-
 .CharBarContainer .MainChartContainer .CharBarList .BackgroundMeasure {
   position: absolute;
   top: 0;
@@ -38,150 +27,109 @@
   right: 0;
   bottom: 0;
 }
-
 .CharBarContainer .MainChartContainer .CharBarList .BackgroundMeasure .Line {
   position: absolute;
   height: 1px;
-  background-color: #e2e2e2;
+  background-color: rgb(226, 226, 226);
   width: 100%;
   font-size: 12px;
 }
-
 .CharBarContainer .MainChartContainer .CharBarList .BackgroundMeasure .Line .Label {
   position: absolute;
   right: 100%;
   bottom: 50%;
-  -webkit-transform: translateY(50%);
-          transform: translateY(50%);
+  transform: translateY(50%);
   padding-right: 5px;
 }
-
 .CharBarContainer .MainChartContainer .CharBarList .BackgroundMeasure .Line.SubLine {
   background-color: transparent;
-  border-bottom: 1px dashed #dfdddd;
+  border-bottom: 1px dashed rgb(223, 221, 221);
   font-size: 11px !important;
 }
-
 .CharBarContainer .MainChartContainer .CharBarList .BackgroundMeasure .Line._0 {
   bottom: 0;
 }
-
 .CharBarContainer .MainChartContainer .CharBarList .BackgroundMeasure .Line._1 {
   bottom: 10%;
 }
-
 .CharBarContainer .MainChartContainer .CharBarList .BackgroundMeasure .Line._2 {
   bottom: 20%;
 }
-
 .CharBarContainer .MainChartContainer .CharBarList .BackgroundMeasure .Line._3 {
   bottom: 30%;
 }
-
 .CharBarContainer .MainChartContainer .CharBarList .BackgroundMeasure .Line._4 {
   bottom: 40%;
 }
-
 .CharBarContainer .MainChartContainer .CharBarList .BackgroundMeasure .Line._5 {
   bottom: 50%;
 }
-
 .CharBarContainer .MainChartContainer .CharBarList .BackgroundMeasure .Line._6 {
   bottom: 60%;
 }
-
 .CharBarContainer .MainChartContainer .CharBarList .BackgroundMeasure .Line._7 {
   bottom: 70%;
 }
-
 .CharBarContainer .MainChartContainer .CharBarList .BackgroundMeasure .Line._8 {
   bottom: 80%;
 }
-
 .CharBarContainer .MainChartContainer .CharBarList .BackgroundMeasure .Line._9 {
   bottom: 90%;
 }
-
 .CharBarContainer .MainChartContainer .CharBarList .BackgroundMeasure .Line._10 {
   bottom: 100%;
 }
-
 .CharBarContainer .MainChartContainer .CharBarList .ChartBarItem {
-  height: calc(100%);
+  height: 100%;
   width: 100%;
   padding: 0 20px;
 }
-
 .CharBarContainer .MainChartContainer .CharBarList .ChartBarItem:hover {
-  background-color: #e9e9e9;
+  background-color: rgb(233, 233, 233);
 }
-
 .CharBarContainer .MainChartContainer .CharBarList .ChartBarItem .BarDetail {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: flex-end;
+  justify-content: center;
   height: inherit;
   gap: 0px;
 }
-
 .CharBarContainer .MainChartContainer .CharBarList .ChartBarItem .BarDetail .Value {
   font-size: 13px;
   width: 100%;
-  border: 0px solid #48484871;
+  border: 0px solid rgba(72, 72, 72, 0.4431372549);
   color: #fff;
   font-weight: bold;
-  -webkit-transform-origin: bottom;
-          transform-origin: bottom;
+  transform-origin: bottom;
   text-align: center;
   position: relative;
   opacity: 0.8;
 }
-
 .CharBarContainer .MainChartContainer .CharBarList .ChartBarItem .BarDetail .Value .BarValue {
   position: absolute;
   bottom: 100%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
-
 .CharBarContainer .MainChartContainer .CharBarList .ChartBarItem .Label {
   font-weight: bold;
   font-size: 14px;
   padding: 5px 0;
   text-align: center;
 }
-
 .CharBarContainer .Note {
   margin-top: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .CharBarContainer .Note .ValueNote {
   padding: 0px 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 10px;
   font-weight: bold;
 }
-
 .CharBarContainer .Note .ValueNote .ColorBox {
   width: 20px;
   height: 20px;
-}
-/*# sourceMappingURL=ChartBarTemplate.css.map */
+}/*# sourceMappingURL=ChartBarTemplate.css.map */

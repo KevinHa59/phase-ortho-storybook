@@ -1,74 +1,43 @@
 .TeamSchedulePageContainer {
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
-
-.TeamSchedulePageContainer .ControlBar {
-  height: 60px;
-  padding: 10px 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  background-color: #ffffff;
-}
-
 .TeamSchedulePageContainer .DateListHeader {
-  height: 70px;
+  min-height: 70px;
   padding-right: 17px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1.3fr (1fr)[7];
-      grid-template-columns: 1.3fr repeat(7, 1fr);
+  grid-template-columns: 1.3fr repeat(7, 1fr);
   gap: 1px;
   background-color: rgba(209, 209, 209, 0.664);
   font-size: 13px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .TeamSchedulePageContainer .DateListBody {
-  height: calc(100vh - 70px);
+  height: 700px;
   overflow: hidden;
   overflow-y: scroll;
   overflow-x: hidden;
   width: 100%;
   background-color: rgba(209, 209, 209, 0.541);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 1px;
 }
-
 .TeamSchedulePageContainer .DateListBody .EmployeeDetail {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1.3fr (1fr)[7];
-      grid-template-columns: 1.3fr repeat(7, 1fr);
+  grid-template-columns: 1.3fr repeat(7, 1fr);
   gap: 1px;
 }
-
 .TeamSchedulePageContainer .DateListBody .EmployeeDetail .EmployeeName {
   min-width: 200px;
   padding: 10px 0 10px 15px;
   position: relative;
-  background-color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  background-color: rgb(255, 255, 255);
   display: flex;
   gap: 10px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .TeamSchedulePageContainer .DateListBody .EmployeeDetail .EmployeeName .Title {
   position: absolute;
   top: 0;
@@ -79,10 +48,8 @@
   color: #ffffff;
   padding: 0 5px;
   border-radius: 0;
-  -webkit-box-shadow: inset 0 -2px 5px rgba(0, 0, 0, 0.5);
-          box-shadow: inset 0 -2px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 -2px 5px rgba(0, 0, 0, 0.5);
 }
-
 .TeamSchedulePageContainer .DateListBody .EmployeeDetail .EmployeeName .Title::before {
   content: "";
   position: absolute;
@@ -90,67 +57,48 @@
   right: 0;
   top: 0;
   bottom: 0;
-  background: linear-gradient(160deg, #ffffffa1 0%, #ffffff70 45%, #ffffff3d 46%, #ff000000 100%);
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.631372549) 0%, rgba(255, 255, 255, 0.4392156863) 45%, rgba(255, 255, 255, 0.2392156863) 46%, rgba(255, 0, 0, 0) 100%);
 }
-
 .TeamSchedulePageContainer .DateListBody .EmployeeDetail .EmployeeName .Avatar {
   height: 50px;
   aspect-ratio: 1;
   border-radius: 50%;
-  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-          box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
   overflow: hidden;
 }
-
 .TeamSchedulePageContainer .DateListBody .EmployeeDetail .EmployeeName .Name {
   text-align: left;
 }
-
 .TeamSchedulePageContainer .DateListBody .EmployeeDetail .ScheduleDate {
   background-color: #ffffff;
   min-width: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   position: relative;
 }
-
+.TeamSchedulePageContainer .DateListBody .EmployeeDetail .ScheduleDate.Weekend {
+  background: repeating-linear-gradient(45deg, #ebebeb 0%, #ebebeb 10%, rgba(255, 255, 255, 0.5411764706) 10%, rgba(255, 255, 255, 0.5411764706) 20%);
+}
 .TeamSchedulePageContainer .DateListBody .EmployeeDetail .ScheduleDate .Highlight {
   position: absolute;
   font-size: 14px;
   height: 60%;
   left: -1px;
   right: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.363);
 }
 
 .CalendarContainer {
   min-width: 100px;
   height: calc(100% - 2px);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: flex-end;
+  justify-content: space-between;
   gap: 10px;
   padding: 5px 10px;
-  -webkit-transition: ease-in-out 0.2s;
   transition: ease-in-out 0.2s;
   cursor: pointer;
   position: relative;
@@ -159,63 +107,46 @@
   z-index: 4;
   overflow: hidden;
 }
-
 .CalendarContainer .EffectBox {
   position: absolute;
   right: 0;
   top: 0;
   height: 400%;
-  -webkit-transform-origin: top right;
-          transform-origin: top right;
+  transform-origin: top right;
   aspect-ratio: 1;
-  -webkit-transition: ease-in-out 0.2s;
   transition: ease-in-out 0.2s;
 }
-
 .CalendarContainer .DateInfo {
   width: 70px;
   font-size: 14px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: left;
   z-index: 2;
 }
-
 .CalendarContainer .Icon {
   position: absolute;
-  -webkit-transition: ease-in-out 0.3s;
   transition: ease-in-out 0.3s;
   font-size: 20px;
   top: 5px;
   right: 10px;
   z-index: 2;
 }
-
 .CalendarContainer:hover {
   background: #708ddf;
-  -webkit-box-shadow: 0 4px 15px #7ca6f5;
-          box-shadow: 0 4px 15px #7ca6f5;
+  box-shadow: 0 4px 15px rgb(124, 166, 245);
 }
-
 .CalendarContainer:hover .Icon {
   top: 50%;
-  -webkit-transform: rotateY(180deg) translateY(-50%);
-          transform: rotateY(180deg) translateY(-50%);
+  transform: rotateY(180deg) translateY(-50%);
   font-size: 50px;
-  color: #a9bdf5af;
+  color: rgba(169, 189, 245, 0.6862745098);
 }
-
 .CalendarContainer .Calendar {
   position: absolute;
   top: 100%;
   left: 0;
 }
-
 .CalendarContainer .Calendar input {
   max-height: 0;
   visibility: hidden;
@@ -226,76 +157,49 @@
   height: calc(100% - 2px);
   padding: 5px 10px;
   background-color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
   margin: 1px 0;
   text-align: left;
   min-width: 100px;
 }
-
 .DateItem.EmptyCell {
   min-width: 200px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-left: 0;
   padding-right: 0;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-size: 20px;
-  color: #3a3a3a;
+  color: rgb(58, 58, 58);
   font-weight: 100;
+}
+.DateItem.Weekend {
+  background: repeating-linear-gradient(45deg, rgba(85, 85, 85, 0.2196078431) 0%, rgba(85, 85, 85, 0.2196078431) 10%, rgba(216, 216, 216, 0.8549019608) 10%, rgba(216, 216, 216, 0.8549019608) 20%);
 }
 
 .Button_DropDown {
   width: 100%;
   padding: 10px 0;
-  border-radius: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   color: #4563b6;
   position: relative;
+  font-size: 17px;
 }
-
 .Button_DropDown .Selection {
   padding: 0 10px;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
-
 .Button_DropDown .Selection .Icon {
-  -webkit-transition: ease-in-out 0.3s;
   transition: ease-in-out 0.3s;
   font-size: 30px;
 }
-
 .Button_DropDown .ListItem {
   margin-top: 15px;
   visibility: hidden;
@@ -305,23 +209,14 @@
   left: 0;
   right: 0;
   z-index: 1;
-  background-color: #b4d2ff;
-  -webkit-box-shadow: 0 2px 5px #7ca6f5;
-          box-shadow: 0 2px 5px #7ca6f5;
-  border-radius: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  background-color: rgb(136, 136, 136);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.397);
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 1px;
   overflow: hidden;
-  -webkit-transition: ease-in-out 0.2s;
   transition: ease-in-out 0.2s;
 }
-
 .Button_DropDown .ListItem .Item {
   background-color: #ffffff;
   padding: 10px;
@@ -330,18 +225,13 @@
   overflow: hidden;
   cursor: pointer;
 }
-
 .Button_DropDown .ListItem .Item:hover {
   background-color: rgba(187, 225, 255, 0.925);
 }
-
 .Button_DropDown:hover .ListItem {
   visibility: visible;
   opacity: 1;
 }
-
 .Button_DropDown:hover .Icon {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-/*# sourceMappingURL=TeamSchedulePageTemplate.css.map */
+  transform: rotate(180deg);
+}/*# sourceMappingURL=TeamSchedulePageTemplate.css.map */

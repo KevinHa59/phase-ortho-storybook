@@ -1,16 +1,12 @@
 .TeamSchedulePageContainer {
     width: 100%;
-
-    height: 100vh;
+    height: 100%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     .ControlBar {
-        height: 60px;
-        padding: 10px 5px;
-        display: flex;
-        justify-content: flex-end;
-        background-color: #ffffff;
+        
     }
     .DateListHeader {
-        height: 70px;
+        min-height: 70px;
         padding-right: 17px;
         display: grid;
         grid-template-columns: 1.3fr repeat(7, 1fr);
@@ -22,7 +18,7 @@
     }
     .DateListBody {
 
-        height: calc(100vh - 70px);
+        height: 700px;
         overflow: hidden;
         overflow-y: scroll;
         overflow-x: hidden;
@@ -93,6 +89,13 @@
                 display: flex;
                 align-items: center;
                 position: relative;
+                &.Weekend{
+                    background: repeating-linear-gradient(45deg, 
+                    #ebebeb 0%,
+                    #ebebeb 10%,
+                    #ffffff8a 10%,
+                    #ffffff8a 20%,);
+                }
                 .Highlight {
                     position: absolute;
                     // border-top: 5px solid #ff0000;
@@ -209,19 +212,26 @@
         color: rgb(58, 58, 58);
         font-weight: 100;
     }
+    &.Weekend {
+        background: repeating-linear-gradient(45deg, 
+        #55555538 0%,
+        #55555538 10%,
+        #d8d8d8da 10%,
+        #d8d8d8da 20%,);
+    }
 }
 
 
 .Button_DropDown {
     width: 100%;
     padding: 10px 0;
-    border-radius: 5px;
     // box-shadow: inset 1px 1px 5px rgba(124, 166, 245, 0.473);
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #4563b6;
     position: relative;
+    font-size: 17px;
     .Selection {
         padding: 0 10px;
         width: 100%;
@@ -242,21 +252,23 @@
         left: 0;
         right: 0;
         z-index: 1;
-        background-color: rgb(180, 210, 255);
-        box-shadow: 0 2px 5px rgb(124, 166, 245);
+        background-color: rgb(136, 136, 136);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.397);
 
-        border-radius: 5px;
+
         display: flex;
         flex-direction: column;
         gap: 1px;
         overflow: hidden;
         transition: ease-in-out 0.2s;
+        
         .Item {
             background-color: #ffffff;
             padding: 10px;
             position: relative;
             z-index: 1;
             overflow: hidden;
+            
             cursor: pointer;
             &:hover {
 

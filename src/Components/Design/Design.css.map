@@ -1,12 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "Design.scss",
-        "Styles/_stylesCombination.scss",
-        "Styles/_mixin.scss",
-        "Styles/_variable.scss"
-    ],
-    "names": [],
-    "file": "Design.css"
-}
+{"version":3,"sources":[],"names":[],"mappings":"","file":"Design.css"}

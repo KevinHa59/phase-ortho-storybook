@@ -1,23 +1,17 @@
 .CalenderPanelContainer {
   width: 229px;
-  -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
   padding: 20px;
 }
-
 .CalenderPanelContainer .label {
   text-align: left;
 }
-
 .CalenderPanelContainer .CalendarContainer {
   margin-top: 56px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 2px;
 }
-
 .CalenderPanelContainer .CalendarContainer .DateBox {
   min-width: 30px;
   aspect-ratio: 1;
@@ -26,64 +20,48 @@
   cursor: pointer;
   border: 1px solid transparent;
 }
-
 .CalenderPanelContainer .CalendarContainer .DateBox._0 {
   background-color: #d3d3d3;
 }
-
 .CalenderPanelContainer .CalendarContainer .DateBox._1 {
   background-color: #d9ecee;
 }
-
 .CalenderPanelContainer .CalendarContainer .DateBox._2 {
   background-color: #c2e7eb;
 }
-
 .CalenderPanelContainer .CalendarContainer .DateBox._3 {
   background-color: #a1dde4;
 }
-
 .CalenderPanelContainer .CalendarContainer .DateBox._4 {
   background-color: #8cd6df;
 }
-
 .CalenderPanelContainer .CalendarContainer .DateBox._5 {
   background-color: #55bcc7;
 }
-
 .CalenderPanelContainer .CalendarContainer .DateBox._6 {
   background-color: #2a9aa7;
 }
-
 .CalenderPanelContainer .CalendarContainer .DateBox._7 {
   background-color: #128896;
 }
-
 .CalenderPanelContainer .CalendarContainer .DateBox._8 {
   background-color: #02626d;
 }
-
 .CalenderPanelContainer .CalendarContainer .DateBox._9 {
   background-color: #00393f;
 }
-
 .CalenderPanelContainer .CalendarContainer .DateBox._10 {
   background-color: #000000;
 }
-
 .CalenderPanelContainer .CalendarContainer .DateBox:hover {
   border: 1px solid #ff733c;
 }
-
 .CalenderPanelContainer .CalendarContainer .DateBox:hover > .DetailBox {
   visibility: visible;
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  -webkit-transition: ease-out 0.01s;
+  transform: scale(1);
   transition: ease-out 0.01s;
 }
-
 .CalenderPanelContainer .CalendarContainer .DateBox .DetailBox {
   position: absolute;
   background-color: #1a1a1a;
@@ -96,18 +74,13 @@
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  -webkit-box-shadow: #000000 0px 0px 5px;
-          box-shadow: #000000 0px 0px 5px;
+  box-shadow: #000000 0px 0px 5px;
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: ease-in 0.1s;
   transition: ease-in 0.1s;
-  -webkit-transform: scale(0) translateX(50%);
-          transform: scale(0) translateX(50%);
-  -webkit-transform-origin: left bottom;
-          transform-origin: left bottom;
+  transform: scale(0) translateX(50%);
+  transform-origin: left bottom;
 }
-
 .CalenderPanelContainer .CalendarContainer .DateBox .DetailBox::before {
   content: "";
   width: 10px;
@@ -116,17 +89,13 @@
   background-color: #000000;
   top: 85%;
   left: 20px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   z-index: 1;
   border-radius: 1px;
 }
-
 .CalenderPanelContainer .CalendarContainer .DateBox .DetailBox .Date {
   text-align: left;
 }
-
 .CalenderPanelContainer .CalendarContainer .DateBox .DetailBox .Hours {
   text-align: left;
-}
-/*# sourceMappingURL=CalendarPanelTemplate.css.map */
+}/*# sourceMappingURL=CalendarPanelTemplate.css.map */

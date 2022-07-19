@@ -1,28 +1,21 @@
 .InputSearchContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   border-radius: 5px;
-  border: 1px solid #a7a7a7;
+  border: 1px solid rgb(167, 167, 167);
   padding: 3px;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
 }
-
 .InputSearchContainer .Input {
   outline: none;
   border: none;
   padding: 3px 10px;
   font-size: 17px;
 }
-
 .InputSearchContainer .Icon {
   font-size: 25px;
   height: 100%;
   aspect-ratio: 1;
-}
-/*# sourceMappingURL=SearchBoxTemplate.css.map */
+}/*# sourceMappingURL=SearchBoxTemplate.css.map */

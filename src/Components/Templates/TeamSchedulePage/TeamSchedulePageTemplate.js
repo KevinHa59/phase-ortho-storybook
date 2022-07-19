@@ -1,13 +1,13 @@
-import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
-import "./TeamSchedulePageTemplate.css";
-import { TeamScheduleData } from "../../../Data/TeamScheduleData";
-import { ImCalendar } from "react-icons/im";
-import { MdArrowDropDown } from "react-icons/md";
+import React, { useEffect, useLayoutEffect, useRef, useState } from 'react';
+import './TeamSchedulePageTemplate.css';
+import { TeamScheduleData } from '../../../Data/TeamScheduleData';
+import { ImCalendar } from 'react-icons/im';
+import { MdArrowDropDown } from 'react-icons/md';
 export default function TeamSchedulePageTemplate() {
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [selectedTeam, setSelectedTeam] = useState(1);
   const [next7Days, setNext7Days] = useState([]);
-  const screenHeight = window.innerHeight;
+
   let isInitial = true;
   const sortedList = TeamScheduleData.sort((a, b) => {
     return a.first_name.localeCompare(b.first_name);
@@ -23,7 +23,7 @@ export default function TeamSchedulePageTemplate() {
       days.push(current.toLocaleDateString());
     }
     setNext7Days(days);
-
+    
     isInitial = false;
   }, [selectedDate]);
 
@@ -34,7 +34,7 @@ export default function TeamSchedulePageTemplate() {
       </div> */}
       <div className="DateListHeader">
         <div className="DateItem EmptyCell">
-          <Button_DropDown label={"Team " + sortedList[0].team} setValue={setSelectedTeam} />
+          <Button_DropDown label={'Team ' + sortedList[0].team} setValue={setSelectedTeam} />
         </div>
         {next7Days?.map((date, index) => {
           var day = new Date(date);
@@ -43,15 +43,29 @@ export default function TeamSchedulePageTemplate() {
       </div>
       <div className="DateListBody">
         {sortedList.map((employee, index) => {
-          const next7DaysSchedule = employee.working_days.filter((schedule) => {
+          let next7DaysSchedule = employee.working_days.filter((schedule) => {
             return new Date(schedule.date) >= new Date(next7Days[0]) && new Date(schedule.date) <= new Date(next7Days[6]);
           });
-
+          let new7DaysSchedule = [] ;
+          next7Days.map((date,index) => {
+            if(date < next7DaysSchedule[0]?.date){
+              new7DaysSchedule.push({
+                date: date,
+                location: '',
+                color_code: 'transparent',
+              });
+            }else{
+              new7DaysSchedule.push(next7DaysSchedule[0]);
+              next7DaysSchedule.shift();
+            }
+          })
           return (
             <div className="EmployeeDetail" key={index}>
-              <EmployeePanel employee={employee} title={employee.team_lead === 1 && "Leader"} />
-              {next7DaysSchedule?.map((schedule, index) => {
-                return <LocationColorBox index={index} locationDetail={schedule} />;
+              <EmployeePanel employee={employee} title={employee.team_lead === 1 && 'Leader'} />
+  
+              {new7DaysSchedule?.map((schedule, index) => {
+                return <LocationColorBox key={index} index={index} selectedDate={selectedDate} locationDetail={schedule} />;
+
               })}
             </div>
           );
@@ -61,24 +75,29 @@ export default function TeamSchedulePageTemplate() {
   );
 }
 
-function LocationColorBox({ index, locationDetail }) {
+
+function LocationColorBox({ index, selectedDate, locationDetail }) {
+  const dayInText = new Date(locationDetail?.date).toLocaleDateString('en-us', { weekday: 'long' });
+  const isWeekend = dayInText === 'Saturday' || dayInText === 'Sunday';
+
   return (
-    <div key={index} className="ScheduleDate">
-      {locationDetail.location !== "" && (
+    locationDetail ? 
+    <div key={index} className={isWeekend ? 'ScheduleDate Weekend' : 'ScheduleDate'}>
+      {locationDetail?.location !== '' && !isWeekend && (
         <div
           className="Highlight"
           style={{
-            borderTopColor: locationDetail.color_code,
-            borderTopWidth: "5px",
-            borderTopStyle: "solid",
-            color: locationDetail.color_code,
-            background: locationDetail.color_code + "49",
+            borderTopColor: locationDetail?.color_code,
+            borderTopWidth: '5px',
+            borderTopStyle: 'solid',
+            color: locationDetail?.color_code,
+            background: locationDetail?.color_code + '49',
           }}
         >
-          {locationDetail.location}
+          {locationDetail?.location} 
         </div>
       )}
-    </div>
+    </div> : <div className="ScheduleDate"></div>
   );
 }
 
@@ -89,15 +108,16 @@ function EmployeePanel({ employee, title }) {
       <div className="Avatar">
         <img src={employee.avatar} alt="" />
       </div>
-      <div className="Name">{employee.first_name + " " + employee.last_name}</div>
+      <div className="Name">{employee.first_name + ' ' + employee.last_name}</div>
     </div>
   );
 }
 
 function DatePanel({ index, day, date }) {
+  const dayInText = day.toLocaleDateString('en-us', { weekday: 'long' });
   return (
-    <div key={index} className="DateItem">
-      <div className="DateText">{day.toLocaleDateString("en-us", { weekday: "long" })}</div>
+    <div key={index} className={dayInText === 'Saturday' || dayInText === 'Sunday' ? 'DateItem Weekend' : 'DateItem'}>
+      <div className="DateText">{dayInText}</div>
       <div className="DateValue">{date}</div>
     </div>
   );
@@ -117,14 +137,14 @@ function DatePicker({ setValue, style, className }) {
 
   return (
     <div
-      className={"CalendarContainer " + className}
+      className={'CalendarContainer ' + className}
       style={style}
       onClick={() => {
         calendarRef.current.showPicker();
       }}
     >
       <div className="DateInfo">
-        {updateDate?.toLocaleDateString("en-us", { weekday: "long" })}
+        {updateDate?.toLocaleDateString('en-us', { weekday: 'long' })}
         <br />
         {updateDate?.toLocaleDateString()}
       </div>
@@ -133,7 +153,6 @@ function DatePicker({ setValue, style, className }) {
         <input
           type="date"
           ref={calendarRef}
-          value={updateDate}
           onChange={(value) => {
             setValue && setValue(value.target.value);
             // setValue(value.target.value);

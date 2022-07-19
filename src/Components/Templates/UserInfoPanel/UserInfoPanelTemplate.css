@@ -1,119 +1,72 @@
 .UserInfoPanelContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 10px 20px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
   height: 200px;
-  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
   background-color: #fff;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   overflow: hidden;
   overflow-x: auto;
   min-height: 200px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
-
 .UserInfoPanelContainer .PlaqueContainer {
   padding-right: 10px;
   height: 80%;
 }
-
 .UserInfoPanelContainer .Center {
   width: inherit;
   padding: 5px 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
 .UserInfoPanelContainer .Center .Top {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
 }
-
 .UserInfoPanelContainer .Center .Top .Info {
   font-size: 20px;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 5px;
   font-size: 17px;
   font-weight: bold;
 }
-
 .UserInfoPanelContainer .Center .Bottom {
   margin-top: 10px;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
   border: 1px solid #85d8db;
 }
-
 .UserInfoPanelContainer .Center .Bottom .TaskItem {
   width: 100%;
   position: relative;
   border: 1px solid transparent;
-  background-color: #9edbff34;
+  background-color: rgba(158, 219, 255, 0.2039215686);
   font-size: 15px;
 }
-
 .UserInfoPanelContainer .Center .Bottom .TaskItem .TaskName {
   text-align: center;
   height: 100%;
   padding: 5px 5px;
 }
-
 .UserInfoPanelContainer .Center .Bottom .TaskItem .Detail {
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  -webkit-transition: ease-in-out 0.1s;
+  transform: translateX(-50%);
   transition: ease-in-out 0.1s;
   bottom: 120%;
   visibility: hidden;
@@ -121,20 +74,17 @@
   border-radius: 5px;
   border: 1px solid #8cd1c0;
   background-color: #1d6d6d;
-  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
   color: #fff;
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
   z-index: 5;
 }
-
 .UserInfoPanelContainer .Center .Bottom .TaskItem .Detail .Section {
   padding: 5px 10px;
   white-space: nowrap;
   text-align: left;
 }
-
 .UserInfoPanelContainer .Center .Bottom .TaskItem .Detail::before {
   content: "";
   width: 10px;
@@ -144,45 +94,33 @@
   top: 95%;
   left: 50%;
   background-color: #1d6d6d;
-  -webkit-transform: translateX(-50%) rotate(45deg);
-          transform: translateX(-50%) rotate(45deg);
+  transform: translateX(-50%) rotate(45deg);
 }
-
 .UserInfoPanelContainer .Center .Bottom .TaskItem.Valid {
   cursor: pointer;
 }
-
 .UserInfoPanelContainer .Center .Bottom .TaskItem.Valid:hover .Detail {
   visibility: visible;
   opacity: 1;
 }
-
 .UserInfoPanelContainer .Center .Bottom .TaskItem.Valid:hover {
   font-weight: 500;
   background-color: #279191;
   color: #fff;
 }
-
 .UserInfoPanelContainer .Center .Bottom .TaskItem.Invalid {
   background-color: rgba(235, 235, 235, 0.336);
-  color: #999999;
+  color: rgb(153, 153, 153);
   border: 1px solid transparent;
 }
-
 .UserInfoPanelContainer .Avatar {
-  border: 1px solid #9e9e9e;
+  border: 1px solid rgb(158, 158, 158);
   min-width: 150px;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   overflow: hidden;
 }
-
 .UserInfoPanelContainer .Avatar img {
   height: 100%;
-}
-/*# sourceMappingURL=UserInfoPanelTemplate.css.map */
+}/*# sourceMappingURL=UserInfoPanelTemplate.css.map */

@@ -124,12 +124,12 @@ export const TeamScheduleData = [
       {
         date: "6/24/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/25/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/26/2022",
@@ -337,7 +337,7 @@ export const TeamScheduleData = [
       {
         date: "6/3/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/4/2022",
@@ -362,7 +362,7 @@ export const TeamScheduleData = [
       {
         date: "6/8/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/9/2022",
@@ -377,7 +377,7 @@ export const TeamScheduleData = [
       {
         date: "6/11/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/12/2022",
@@ -437,12 +437,12 @@ export const TeamScheduleData = [
       {
         date: "6/23/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/24/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/25/2022",
@@ -521,7 +521,7 @@ export const TeamScheduleData = [
       {
         date: "6/8/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/9/2022",
@@ -536,7 +536,7 @@ export const TeamScheduleData = [
       {
         date: "6/11/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/12/2022",
@@ -551,7 +551,7 @@ export const TeamScheduleData = [
       {
         date: "6/14/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/15/2022",
@@ -591,7 +591,7 @@ export const TeamScheduleData = [
       {
         date: "6/22/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/23/2022",
@@ -645,7 +645,7 @@ export const TeamScheduleData = [
       {
         date: "6/1/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/2/2022",
@@ -780,7 +780,7 @@ export const TeamScheduleData = [
       {
         date: "6/28/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/29/2022",
@@ -834,7 +834,7 @@ export const TeamScheduleData = [
       {
         date: "6/7/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/8/2022",
@@ -914,7 +914,7 @@ export const TeamScheduleData = [
       {
         date: "6/23/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/24/2022",
@@ -939,7 +939,7 @@ export const TeamScheduleData = [
       {
         date: "6/28/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/29/2022",
@@ -1008,7 +1008,7 @@ export const TeamScheduleData = [
       {
         date: "6/10/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/11/2022",
@@ -1023,7 +1023,7 @@ export const TeamScheduleData = [
       {
         date: "6/13/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/14/2022",
@@ -1078,7 +1078,7 @@ export const TeamScheduleData = [
       {
         date: "6/24/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/25/2022",
@@ -1222,7 +1222,7 @@ export const TeamScheduleData = [
       {
         date: "6/21/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/22/2022",
@@ -1257,7 +1257,7 @@ export const TeamScheduleData = [
       {
         date: "6/28/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/29/2022",
@@ -1311,7 +1311,7 @@ export const TeamScheduleData = [
       {
         date: "6/7/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/8/2022",
@@ -1341,7 +1341,7 @@ export const TeamScheduleData = [
       {
         date: "6/13/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/14/2022",
@@ -1371,7 +1371,7 @@ export const TeamScheduleData = [
       {
         date: "6/19/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/20/2022",
@@ -1386,12 +1386,12 @@ export const TeamScheduleData = [
       {
         date: "6/22/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/23/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/24/2022",
@@ -1460,7 +1460,7 @@ export const TeamScheduleData = [
       {
         date: "6/5/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/6/2022",
@@ -1485,7 +1485,7 @@ export const TeamScheduleData = [
       {
         date: "6/10/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/11/2022",
@@ -1570,7 +1570,7 @@ export const TeamScheduleData = [
       {
         date: "6/27/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/28/2022",
@@ -1580,7 +1580,7 @@ export const TeamScheduleData = [
       {
         date: "6/29/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/30/2022",
@@ -1669,7 +1669,7 @@ export const TeamScheduleData = [
       {
         date: "6/15/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/16/2022",
@@ -1838,12 +1838,12 @@ export const TeamScheduleData = [
       {
         date: "6/17/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/18/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/19/2022",
@@ -1863,12 +1863,12 @@ export const TeamScheduleData = [
       {
         date: "6/22/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/23/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/24/2022",
@@ -1922,7 +1922,7 @@ export const TeamScheduleData = [
       {
         date: "6/2/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/3/2022",
@@ -1977,7 +1977,7 @@ export const TeamScheduleData = [
       {
         date: "6/13/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/14/2022",
@@ -2027,7 +2027,7 @@ export const TeamScheduleData = [
       {
         date: "6/23/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/24/2022",
@@ -2136,7 +2136,7 @@ export const TeamScheduleData = [
       {
         date: "6/13/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/14/2022",
@@ -2255,12 +2255,12 @@ export const TeamScheduleData = [
       {
         date: "6/5/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/6/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/7/2022",
@@ -2285,7 +2285,7 @@ export const TeamScheduleData = [
       {
         date: "6/11/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/12/2022",
@@ -2300,7 +2300,7 @@ export const TeamScheduleData = [
       {
         date: "6/14/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/15/2022",
@@ -2429,7 +2429,7 @@ export const TeamScheduleData = [
       {
         date: "6/8/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/9/2022",
@@ -2444,7 +2444,7 @@ export const TeamScheduleData = [
       {
         date: "6/11/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/12/2022",
@@ -2484,7 +2484,7 @@ export const TeamScheduleData = [
       {
         date: "6/19/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/20/2022",
@@ -2499,7 +2499,7 @@ export const TeamScheduleData = [
       {
         date: "6/22/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/23/2022",
@@ -2563,7 +2563,7 @@ export const TeamScheduleData = [
       {
         date: "6/3/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/4/2022",
@@ -2633,7 +2633,7 @@ export const TeamScheduleData = [
       {
         date: "6/17/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/18/2022",
@@ -2683,7 +2683,7 @@ export const TeamScheduleData = [
       {
         date: "6/27/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/28/2022",
@@ -2717,7 +2717,7 @@ export const TeamScheduleData = [
       {
         date: "6/2/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/3/2022",
@@ -2797,7 +2797,7 @@ export const TeamScheduleData = [
       {
         date: "6/18/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/19/2022",
@@ -2812,7 +2812,7 @@ export const TeamScheduleData = [
       {
         date: "6/21/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/22/2022",
@@ -2842,7 +2842,7 @@ export const TeamScheduleData = [
       {
         date: "6/27/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/28/2022",
@@ -2876,7 +2876,7 @@ export const TeamScheduleData = [
       {
         date: "6/2/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/3/2022",
@@ -2916,17 +2916,17 @@ export const TeamScheduleData = [
       {
         date: "6/10/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/11/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/12/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/13/2022",
@@ -2991,12 +2991,12 @@ export const TeamScheduleData = [
       {
         date: "6/25/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/26/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/27/2022",
@@ -3060,7 +3060,7 @@ export const TeamScheduleData = [
       {
         date: "6/7/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/8/2022",
@@ -3090,7 +3090,7 @@ export const TeamScheduleData = [
       {
         date: "6/13/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/14/2022",
@@ -3175,7 +3175,7 @@ export const TeamScheduleData = [
       {
         date: "6/30/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
     ],
   },
@@ -3199,7 +3199,7 @@ export const TeamScheduleData = [
       {
         date: "6/3/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/4/2022",
@@ -3214,7 +3214,7 @@ export const TeamScheduleData = [
       {
         date: "6/6/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/7/2022",
@@ -3249,7 +3249,7 @@ export const TeamScheduleData = [
       {
         date: "6/13/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/14/2022",
@@ -3264,12 +3264,12 @@ export const TeamScheduleData = [
       {
         date: "6/16/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/17/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/18/2022",
@@ -3358,7 +3358,7 @@ export const TeamScheduleData = [
       {
         date: "6/3/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/4/2022",
@@ -3373,7 +3373,7 @@ export const TeamScheduleData = [
       {
         date: "6/6/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/7/2022",
@@ -3418,7 +3418,7 @@ export const TeamScheduleData = [
       {
         date: "6/15/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/16/2022",
@@ -3438,7 +3438,7 @@ export const TeamScheduleData = [
       {
         date: "6/19/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/20/2022",
@@ -3453,7 +3453,7 @@ export const TeamScheduleData = [
       {
         date: "6/22/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/23/2022",
@@ -3463,7 +3463,7 @@ export const TeamScheduleData = [
       {
         date: "6/24/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/25/2022",
@@ -3478,7 +3478,7 @@ export const TeamScheduleData = [
       {
         date: "6/27/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/28/2022",
@@ -3547,12 +3547,12 @@ export const TeamScheduleData = [
       {
         date: "6/9/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/10/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/11/2022",
@@ -3627,7 +3627,7 @@ export const TeamScheduleData = [
       {
         date: "6/25/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/26/2022",
@@ -3681,7 +3681,7 @@ export const TeamScheduleData = [
       {
         date: "6/4/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/5/2022",
@@ -3721,7 +3721,7 @@ export const TeamScheduleData = [
       {
         date: "6/12/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/13/2022",
@@ -3806,7 +3806,7 @@ export const TeamScheduleData = [
       {
         date: "6/29/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/30/2022",
@@ -3865,7 +3865,7 @@ export const TeamScheduleData = [
       {
         date: "6/9/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/10/2022",
@@ -3915,7 +3915,7 @@ export const TeamScheduleData = [
       {
         date: "6/19/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/20/2022",
@@ -4004,7 +4004,7 @@ export const TeamScheduleData = [
       {
         date: "6/5/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/6/2022",
@@ -4079,7 +4079,7 @@ export const TeamScheduleData = [
       {
         date: "6/20/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/21/2022",
@@ -4178,7 +4178,7 @@ export const TeamScheduleData = [
       {
         date: "6/8/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/9/2022",
@@ -4218,7 +4218,7 @@ export const TeamScheduleData = [
       {
         date: "6/16/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/17/2022",
@@ -4253,7 +4253,7 @@ export const TeamScheduleData = [
       {
         date: "6/23/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/24/2022",
@@ -4377,7 +4377,7 @@ export const TeamScheduleData = [
       {
         date: "6/16/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/17/2022",
@@ -4471,12 +4471,12 @@ export const TeamScheduleData = [
       {
         date: "6/3/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/4/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/5/2022",
@@ -4521,7 +4521,7 @@ export const TeamScheduleData = [
       {
         date: "6/13/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/14/2022",
@@ -4531,7 +4531,7 @@ export const TeamScheduleData = [
       {
         date: "6/15/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/16/2022",
@@ -4630,7 +4630,7 @@ export const TeamScheduleData = [
       {
         date: "6/3/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/4/2022",
@@ -4640,7 +4640,7 @@ export const TeamScheduleData = [
       {
         date: "6/5/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/6/2022",
@@ -4650,7 +4650,7 @@ export const TeamScheduleData = [
       {
         date: "6/7/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/8/2022",
@@ -4680,7 +4680,7 @@ export const TeamScheduleData = [
       {
         date: "6/13/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/14/2022",
@@ -4904,7 +4904,7 @@ export const TeamScheduleData = [
       {
         date: "6/26/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/27/2022",
@@ -4943,7 +4943,7 @@ export const TeamScheduleData = [
       {
         date: "6/2/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/3/2022",
@@ -4973,7 +4973,7 @@ export const TeamScheduleData = [
       {
         date: "6/8/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/9/2022",
@@ -5018,7 +5018,7 @@ export const TeamScheduleData = [
       {
         date: "6/17/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/18/2022",
@@ -5097,7 +5097,7 @@ export const TeamScheduleData = [
       {
         date: "6/1/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/2/2022",
@@ -5207,7 +5207,7 @@ export const TeamScheduleData = [
       {
         date: "6/23/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/24/2022",
@@ -5286,7 +5286,7 @@ export const TeamScheduleData = [
       {
         date: "6/7/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/8/2022",
@@ -5396,7 +5396,7 @@ export const TeamScheduleData = [
       {
         date: "6/29/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/30/2022",
@@ -5440,7 +5440,7 @@ export const TeamScheduleData = [
       {
         date: "6/6/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/7/2022",
@@ -5525,7 +5525,7 @@ export const TeamScheduleData = [
       {
         date: "6/23/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/24/2022",
@@ -5584,7 +5584,7 @@ export const TeamScheduleData = [
       {
         date: "6/3/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/4/2022",
@@ -5679,17 +5679,17 @@ export const TeamScheduleData = [
       {
         date: "6/22/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/23/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/24/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/25/2022",
@@ -5748,7 +5748,7 @@ export const TeamScheduleData = [
       {
         date: "6/4/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/5/2022",
@@ -5763,12 +5763,12 @@ export const TeamScheduleData = [
       {
         date: "6/7/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/8/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/9/2022",
@@ -5833,12 +5833,12 @@ export const TeamScheduleData = [
       {
         date: "6/21/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/22/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/23/2022",
@@ -5902,7 +5902,7 @@ export const TeamScheduleData = [
       {
         date: "6/3/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/4/2022",
@@ -5917,12 +5917,12 @@ export const TeamScheduleData = [
       {
         date: "6/6/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/7/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/8/2022",
@@ -5932,7 +5932,7 @@ export const TeamScheduleData = [
       {
         date: "6/9/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/10/2022",
@@ -5952,7 +5952,7 @@ export const TeamScheduleData = [
       {
         date: "6/13/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/14/2022",
@@ -5967,7 +5967,7 @@ export const TeamScheduleData = [
       {
         date: "6/16/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/17/2022",
@@ -6037,7 +6037,7 @@ export const TeamScheduleData = [
       {
         date: "6/30/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
     ],
   },
@@ -6191,7 +6191,7 @@ export const TeamScheduleData = [
       {
         date: "6/29/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/30/2022",
@@ -6255,12 +6255,12 @@ export const TeamScheduleData = [
       {
         date: "6/10/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/11/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/12/2022",
@@ -6270,7 +6270,7 @@ export const TeamScheduleData = [
       {
         date: "6/13/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/14/2022",
@@ -6295,7 +6295,7 @@ export const TeamScheduleData = [
       {
         date: "6/18/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/19/2022",
@@ -6459,7 +6459,7 @@ export const TeamScheduleData = [
       {
         date: "6/19/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/20/2022",
@@ -6469,7 +6469,7 @@ export const TeamScheduleData = [
       {
         date: "6/21/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/22/2022",
@@ -6499,7 +6499,7 @@ export const TeamScheduleData = [
       {
         date: "6/27/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/28/2022",
@@ -6588,7 +6588,7 @@ export const TeamScheduleData = [
       {
         date: "6/13/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/14/2022",
@@ -6608,7 +6608,7 @@ export const TeamScheduleData = [
       {
         date: "6/17/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/18/2022",
@@ -6618,7 +6618,7 @@ export const TeamScheduleData = [
       {
         date: "6/19/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/20/2022",
@@ -6648,7 +6648,7 @@ export const TeamScheduleData = [
       {
         date: "6/25/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/26/2022",
@@ -6658,7 +6658,7 @@ export const TeamScheduleData = [
       {
         date: "6/27/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/28/2022",
@@ -6697,7 +6697,7 @@ export const TeamScheduleData = [
       {
         date: "6/3/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/4/2022",
@@ -6707,7 +6707,7 @@ export const TeamScheduleData = [
       {
         date: "6/5/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/6/2022",
@@ -6807,7 +6807,7 @@ export const TeamScheduleData = [
       {
         date: "6/25/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/26/2022",
@@ -6851,7 +6851,7 @@ export const TeamScheduleData = [
       {
         date: "6/2/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/3/2022",
@@ -6896,7 +6896,7 @@ export const TeamScheduleData = [
       {
         date: "6/11/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/12/2022",
@@ -6931,7 +6931,7 @@ export const TeamScheduleData = [
       {
         date: "6/18/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/19/2022",
@@ -7010,7 +7010,7 @@ export const TeamScheduleData = [
       {
         date: "6/2/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/3/2022",
@@ -7060,7 +7060,7 @@ export const TeamScheduleData = [
       {
         date: "6/12/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/13/2022",
@@ -7075,7 +7075,7 @@ export const TeamScheduleData = [
       {
         date: "6/15/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/16/2022",
@@ -7095,7 +7095,7 @@ export const TeamScheduleData = [
       {
         date: "6/19/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/20/2022",
@@ -7110,7 +7110,7 @@ export const TeamScheduleData = [
       {
         date: "6/22/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/23/2022",
@@ -7199,7 +7199,7 @@ export const TeamScheduleData = [
       {
         date: "6/8/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/9/2022",
@@ -7388,7 +7388,7 @@ export const TeamScheduleData = [
       {
         date: "6/14/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/15/2022",
@@ -7413,7 +7413,7 @@ export const TeamScheduleData = [
       {
         date: "6/19/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/20/2022",
@@ -7433,7 +7433,7 @@ export const TeamScheduleData = [
       {
         date: "6/23/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/24/2022",
@@ -7726,7 +7726,7 @@ export const TeamScheduleData = [
       {
         date: "6/18/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/19/2022",
@@ -7741,7 +7741,7 @@ export const TeamScheduleData = [
       {
         date: "6/21/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/22/2022",
@@ -7845,7 +7845,7 @@ export const TeamScheduleData = [
       {
         date: "6/10/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/11/2022",
@@ -7945,7 +7945,7 @@ export const TeamScheduleData = [
       {
         date: "6/30/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
     ],
   },
@@ -7984,12 +7984,12 @@ export const TeamScheduleData = [
       {
         date: "6/6/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/7/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/8/2022",
@@ -8029,7 +8029,7 @@ export const TeamScheduleData = [
       {
         date: "6/15/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/16/2022",
@@ -8099,7 +8099,7 @@ export const TeamScheduleData = [
       {
         date: "6/29/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/30/2022",
@@ -8362,7 +8362,7 @@ export const TeamScheduleData = [
       {
         date: "6/18/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/19/2022",
@@ -8481,7 +8481,7 @@ export const TeamScheduleData = [
       {
         date: "6/10/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/11/2022",
@@ -8491,7 +8491,7 @@ export const TeamScheduleData = [
       {
         date: "6/12/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/13/2022",
@@ -8526,7 +8526,7 @@ export const TeamScheduleData = [
       {
         date: "6/19/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/20/2022",
@@ -8536,7 +8536,7 @@ export const TeamScheduleData = [
       {
         date: "6/21/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/22/2022",
@@ -8571,7 +8571,7 @@ export const TeamScheduleData = [
       {
         date: "6/28/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/29/2022",
@@ -8605,7 +8605,7 @@ export const TeamScheduleData = [
       {
         date: "6/3/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/4/2022",
@@ -8620,7 +8620,7 @@ export const TeamScheduleData = [
       {
         date: "6/6/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/7/2022",
@@ -8650,7 +8650,7 @@ export const TeamScheduleData = [
       {
         date: "6/12/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/13/2022",
@@ -8700,7 +8700,7 @@ export const TeamScheduleData = [
       {
         date: "6/22/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/23/2022",
@@ -8774,12 +8774,12 @@ export const TeamScheduleData = [
       {
         date: "6/5/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/6/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/7/2022",
@@ -8963,7 +8963,7 @@ export const TeamScheduleData = [
       {
         date: "6/11/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/12/2022",
@@ -9018,7 +9018,7 @@ export const TeamScheduleData = [
       {
         date: "6/22/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/23/2022",
@@ -9038,7 +9038,7 @@ export const TeamScheduleData = [
       {
         date: "6/26/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/27/2022",
@@ -9087,7 +9087,7 @@ export const TeamScheduleData = [
       {
         date: "6/4/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/5/2022",
@@ -9192,12 +9192,12 @@ export const TeamScheduleData = [
       {
         date: "6/25/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/26/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/27/2022",
@@ -9217,7 +9217,7 @@ export const TeamScheduleData = [
       {
         date: "6/30/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
     ],
   },
@@ -9246,7 +9246,7 @@ export const TeamScheduleData = [
       {
         date: "6/4/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/5/2022",
@@ -9256,7 +9256,7 @@ export const TeamScheduleData = [
       {
         date: "6/6/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/7/2022",
@@ -9276,7 +9276,7 @@ export const TeamScheduleData = [
       {
         date: "6/10/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/11/2022",
@@ -9400,7 +9400,7 @@ export const TeamScheduleData = [
       {
         date: "6/3/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/4/2022",
@@ -9485,7 +9485,7 @@ export const TeamScheduleData = [
       {
         date: "6/20/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/21/2022",
@@ -9510,12 +9510,12 @@ export const TeamScheduleData = [
       {
         date: "6/25/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/26/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/27/2022",
@@ -9535,7 +9535,7 @@ export const TeamScheduleData = [
       {
         date: "6/30/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
     ],
   },
@@ -9599,7 +9599,7 @@ export const TeamScheduleData = [
       {
         date: "6/11/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/12/2022",
@@ -9609,7 +9609,7 @@ export const TeamScheduleData = [
       {
         date: "6/13/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/14/2022",
@@ -9669,7 +9669,7 @@ export const TeamScheduleData = [
       {
         date: "6/25/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/26/2022",
@@ -9748,7 +9748,7 @@ export const TeamScheduleData = [
       {
         date: "6/9/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/10/2022",
@@ -9783,7 +9783,7 @@ export const TeamScheduleData = [
       {
         date: "6/16/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/17/2022",
@@ -9818,12 +9818,12 @@ export const TeamScheduleData = [
       {
         date: "6/23/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/24/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/25/2022",
@@ -9937,12 +9937,12 @@ export const TeamScheduleData = [
       {
         date: "6/15/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/16/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/17/2022",
@@ -9987,7 +9987,7 @@ export const TeamScheduleData = [
       {
         date: "6/25/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/26/2022",
@@ -10031,7 +10031,7 @@ export const TeamScheduleData = [
       {
         date: "6/2/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/3/2022",
@@ -10051,7 +10051,7 @@ export const TeamScheduleData = [
       {
         date: "6/6/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/7/2022",
@@ -10076,7 +10076,7 @@ export const TeamScheduleData = [
       {
         date: "6/11/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/12/2022",
@@ -10141,7 +10141,7 @@ export const TeamScheduleData = [
       {
         date: "6/24/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/25/2022",
@@ -10195,7 +10195,7 @@ export const TeamScheduleData = [
       {
         date: "6/3/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/4/2022",
@@ -10330,7 +10330,7 @@ export const TeamScheduleData = [
       {
         date: "6/30/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
     ],
   },
@@ -10354,7 +10354,7 @@ export const TeamScheduleData = [
       {
         date: "6/3/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/4/2022",
@@ -10389,7 +10389,7 @@ export const TeamScheduleData = [
       {
         date: "6/10/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/11/2022",
@@ -10409,7 +10409,7 @@ export const TeamScheduleData = [
       {
         date: "6/14/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/15/2022",
@@ -10419,7 +10419,7 @@ export const TeamScheduleData = [
       {
         date: "6/16/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/17/2022",
@@ -10429,7 +10429,7 @@ export const TeamScheduleData = [
       {
         date: "6/18/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/19/2022",
@@ -10469,7 +10469,7 @@ export const TeamScheduleData = [
       {
         date: "6/26/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/27/2022",
@@ -10479,7 +10479,7 @@ export const TeamScheduleData = [
       {
         date: "6/28/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/29/2022",
@@ -10508,7 +10508,7 @@ export const TeamScheduleData = [
       {
         date: "6/2/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/3/2022",
@@ -10568,7 +10568,7 @@ export const TeamScheduleData = [
       {
         date: "6/14/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/15/2022",
@@ -10578,7 +10578,7 @@ export const TeamScheduleData = [
       {
         date: "6/16/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/17/2022",
@@ -10603,7 +10603,7 @@ export const TeamScheduleData = [
       {
         date: "6/21/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/22/2022",
@@ -10891,7 +10891,7 @@ export const TeamScheduleData = [
       {
         date: "6/15/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/16/2022",
@@ -10901,7 +10901,7 @@ export const TeamScheduleData = [
       {
         date: "6/17/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/18/2022",
@@ -10951,7 +10951,7 @@ export const TeamScheduleData = [
       {
         date: "6/27/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/28/2022",
@@ -11015,7 +11015,7 @@ export const TeamScheduleData = [
       {
         date: "6/8/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/9/2022",
@@ -11085,7 +11085,7 @@ export const TeamScheduleData = [
       {
         date: "6/22/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/23/2022",
@@ -11214,7 +11214,7 @@ export const TeamScheduleData = [
       {
         date: "6/16/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/17/2022",
@@ -11333,7 +11333,7 @@ export const TeamScheduleData = [
       {
         date: "6/8/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/9/2022",
@@ -11358,7 +11358,7 @@ export const TeamScheduleData = [
       {
         date: "6/13/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/14/2022",
@@ -11393,7 +11393,7 @@ export const TeamScheduleData = [
       {
         date: "6/20/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/21/2022",
@@ -11433,7 +11433,7 @@ export const TeamScheduleData = [
       {
         date: "6/28/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/29/2022",
@@ -11492,12 +11492,12 @@ export const TeamScheduleData = [
       {
         date: "6/8/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/9/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/10/2022",
@@ -11507,7 +11507,7 @@ export const TeamScheduleData = [
       {
         date: "6/11/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/12/2022",
@@ -11666,7 +11666,7 @@ export const TeamScheduleData = [
       {
         date: "6/11/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/12/2022",
@@ -11756,7 +11756,7 @@ export const TeamScheduleData = [
       {
         date: "6/29/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/30/2022",
@@ -11810,12 +11810,12 @@ export const TeamScheduleData = [
       {
         date: "6/8/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/9/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/10/2022",
@@ -11850,12 +11850,12 @@ export const TeamScheduleData = [
       {
         date: "6/16/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/17/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/18/2022",
@@ -11920,7 +11920,7 @@ export const TeamScheduleData = [
       {
         date: "6/30/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
     ],
   },
@@ -11934,7 +11934,7 @@ export const TeamScheduleData = [
       {
         date: "6/1/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/2/2022",
@@ -11979,7 +11979,7 @@ export const TeamScheduleData = [
       {
         date: "6/10/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/11/2022",
@@ -12009,7 +12009,7 @@ export const TeamScheduleData = [
       {
         date: "6/16/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/17/2022",
@@ -12029,7 +12029,7 @@ export const TeamScheduleData = [
       {
         date: "6/20/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/21/2022",
@@ -12103,12 +12103,12 @@ export const TeamScheduleData = [
       {
         date: "6/3/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/4/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/5/2022",
@@ -12148,7 +12148,7 @@ export const TeamScheduleData = [
       {
         date: "6/12/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/13/2022",
@@ -12213,7 +12213,7 @@ export const TeamScheduleData = [
       {
         date: "6/25/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/26/2022",
@@ -12307,7 +12307,7 @@ export const TeamScheduleData = [
       {
         date: "6/12/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/13/2022",
@@ -12426,7 +12426,7 @@ export const TeamScheduleData = [
       {
         date: "6/4/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/5/2022",
@@ -12491,7 +12491,7 @@ export const TeamScheduleData = [
       {
         date: "6/17/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/18/2022",
@@ -12546,7 +12546,7 @@ export const TeamScheduleData = [
       {
         date: "6/28/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/29/2022",
@@ -12635,12 +12635,12 @@ export const TeamScheduleData = [
       {
         date: "6/14/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/15/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/16/2022",
@@ -12739,7 +12739,7 @@ export const TeamScheduleData = [
       {
         date: "6/3/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/4/2022",
@@ -12804,7 +12804,7 @@ export const TeamScheduleData = [
       {
         date: "6/16/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/17/2022",
@@ -12854,7 +12854,7 @@ export const TeamScheduleData = [
       {
         date: "6/26/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/27/2022",
@@ -12983,7 +12983,7 @@ export const TeamScheduleData = [
       {
         date: "6/20/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/21/2022",
@@ -12993,7 +12993,7 @@ export const TeamScheduleData = [
       {
         date: "6/22/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/23/2022",
@@ -13003,7 +13003,7 @@ export const TeamScheduleData = [
       {
         date: "6/24/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/25/2022",
@@ -13028,7 +13028,7 @@ export const TeamScheduleData = [
       {
         date: "6/29/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/30/2022",
@@ -13072,7 +13072,7 @@ export const TeamScheduleData = [
       {
         date: "6/6/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/7/2022",
@@ -13122,7 +13122,7 @@ export const TeamScheduleData = [
       {
         date: "6/16/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/17/2022",
@@ -13132,7 +13132,7 @@ export const TeamScheduleData = [
       {
         date: "6/18/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/19/2022",
@@ -13142,7 +13142,7 @@ export const TeamScheduleData = [
       {
         date: "6/20/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/21/2022",
@@ -13231,12 +13231,12 @@ export const TeamScheduleData = [
       {
         date: "6/6/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/7/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/8/2022",
@@ -13261,7 +13261,7 @@ export const TeamScheduleData = [
       {
         date: "6/12/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/13/2022",
@@ -13301,7 +13301,7 @@ export const TeamScheduleData = [
       {
         date: "6/20/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/21/2022",
@@ -13311,7 +13311,7 @@ export const TeamScheduleData = [
       {
         date: "6/22/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/23/2022",
@@ -13321,7 +13321,7 @@ export const TeamScheduleData = [
       {
         date: "6/24/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/25/2022",
@@ -13380,7 +13380,7 @@ export const TeamScheduleData = [
       {
         date: "6/4/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/5/2022",
@@ -13480,7 +13480,7 @@ export const TeamScheduleData = [
       {
         date: "6/24/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/25/2022",
@@ -13549,7 +13549,7 @@ export const TeamScheduleData = [
       {
         date: "6/6/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/7/2022",
@@ -13614,7 +13614,7 @@ export const TeamScheduleData = [
       {
         date: "6/19/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/20/2022",
@@ -13649,7 +13649,7 @@ export const TeamScheduleData = [
       {
         date: "6/26/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/27/2022",
@@ -13733,7 +13733,7 @@ export const TeamScheduleData = [
       {
         date: "6/11/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/12/2022",
@@ -13793,7 +13793,7 @@ export const TeamScheduleData = [
       {
         date: "6/23/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/24/2022",
@@ -13847,7 +13847,7 @@ export const TeamScheduleData = [
       {
         date: "6/2/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/3/2022",
@@ -13857,7 +13857,7 @@ export const TeamScheduleData = [
       {
         date: "6/4/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/5/2022",
@@ -13882,7 +13882,7 @@ export const TeamScheduleData = [
       {
         date: "6/9/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/10/2022",
@@ -13972,7 +13972,7 @@ export const TeamScheduleData = [
       {
         date: "6/27/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/28/2022",
@@ -14071,7 +14071,7 @@ export const TeamScheduleData = [
       {
         date: "6/15/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/16/2022",
@@ -14091,7 +14091,7 @@ export const TeamScheduleData = [
       {
         date: "6/19/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/20/2022",
@@ -14190,7 +14190,7 @@ export const TeamScheduleData = [
       {
         date: "6/7/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/8/2022",
@@ -14230,12 +14230,12 @@ export const TeamScheduleData = [
       {
         date: "6/15/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/16/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/17/2022",
@@ -14305,7 +14305,7 @@ export const TeamScheduleData = [
       {
         date: "6/30/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
     ],
   },
@@ -14324,7 +14324,7 @@ export const TeamScheduleData = [
       {
         date: "6/2/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/3/2022",
@@ -14389,7 +14389,7 @@ export const TeamScheduleData = [
       {
         date: "6/15/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/16/2022",
@@ -14399,7 +14399,7 @@ export const TeamScheduleData = [
       {
         date: "6/17/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/18/2022",
@@ -14429,12 +14429,12 @@ export const TeamScheduleData = [
       {
         date: "6/23/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/24/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/25/2022",
@@ -14464,7 +14464,7 @@ export const TeamScheduleData = [
       {
         date: "6/30/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
     ],
   },
@@ -14488,7 +14488,7 @@ export const TeamScheduleData = [
       {
         date: "6/3/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/4/2022",
@@ -14508,7 +14508,7 @@ export const TeamScheduleData = [
       {
         date: "6/7/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/8/2022",
@@ -14528,12 +14528,12 @@ export const TeamScheduleData = [
       {
         date: "6/11/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/12/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/13/2022",
@@ -14608,7 +14608,7 @@ export const TeamScheduleData = [
       {
         date: "6/27/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/28/2022",
@@ -14667,7 +14667,7 @@ export const TeamScheduleData = [
       {
         date: "6/7/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/8/2022",
@@ -14677,7 +14677,7 @@ export const TeamScheduleData = [
       {
         date: "6/9/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/10/2022",
@@ -14727,7 +14727,7 @@ export const TeamScheduleData = [
       {
         date: "6/19/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/20/2022",
@@ -14752,7 +14752,7 @@ export const TeamScheduleData = [
       {
         date: "6/24/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/25/2022",
@@ -14806,7 +14806,7 @@ export const TeamScheduleData = [
       {
         date: "6/3/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/4/2022",
@@ -14826,7 +14826,7 @@ export const TeamScheduleData = [
       {
         date: "6/7/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/8/2022",
@@ -14891,7 +14891,7 @@ export const TeamScheduleData = [
       {
         date: "6/20/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/21/2022",
@@ -14926,12 +14926,12 @@ export const TeamScheduleData = [
       {
         date: "6/27/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/28/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/29/2022",
@@ -14960,7 +14960,7 @@ export const TeamScheduleData = [
       {
         date: "6/2/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/3/2022",
@@ -14975,7 +14975,7 @@ export const TeamScheduleData = [
       {
         date: "6/5/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/6/2022",
@@ -15025,7 +15025,7 @@ export const TeamScheduleData = [
       {
         date: "6/15/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/16/2022",
@@ -15060,7 +15060,7 @@ export const TeamScheduleData = [
       {
         date: "6/22/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/23/2022",
@@ -15100,7 +15100,7 @@ export const TeamScheduleData = [
       {
         date: "6/30/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
     ],
   },
@@ -15179,7 +15179,7 @@ export const TeamScheduleData = [
       {
         date: "6/14/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/15/2022",
@@ -15214,7 +15214,7 @@ export const TeamScheduleData = [
       {
         date: "6/21/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/22/2022",
@@ -15278,7 +15278,7 @@ export const TeamScheduleData = [
       {
         date: "6/2/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/3/2022",
@@ -15323,12 +15323,12 @@ export const TeamScheduleData = [
       {
         date: "6/11/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/12/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/13/2022",
@@ -15358,7 +15358,7 @@ export const TeamScheduleData = [
       {
         date: "6/18/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/19/2022",
@@ -15373,7 +15373,7 @@ export const TeamScheduleData = [
       {
         date: "6/21/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/22/2022",
@@ -15577,7 +15577,7 @@ export const TeamScheduleData = [
       {
         date: "6/30/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
     ],
   },
@@ -15666,7 +15666,7 @@ export const TeamScheduleData = [
       {
         date: "6/16/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/17/2022",
@@ -15750,7 +15750,7 @@ export const TeamScheduleData = [
       {
         date: "6/1/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/2/2022",
@@ -15855,12 +15855,12 @@ export const TeamScheduleData = [
       {
         date: "6/22/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/23/2022",
         location: "",
-        color_code: "#000000",
+        color_code: "transparent",
       },
       {
         date: "6/24/2022",

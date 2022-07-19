@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,kBAAkB,CAAA;EACd,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,qCAAqC;EAE5D,GAAG,EAAE,IAAI;EACT,OAAO,EAAE,GAAG;CACf",
-    "sources": [
-        "DialListTemplate.scss"
-    ],
-    "names": [],
-    "file": "DialListTemplate.css"
-}
+{"version":3,"sources":["DialListTemplate.scss","DialListTemplate.css"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,4DAAA;EAEA,SAAA;EACA,YAAA;ACAJ","file":"DialListTemplate.css"}

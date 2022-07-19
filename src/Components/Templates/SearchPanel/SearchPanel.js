@@ -25,10 +25,11 @@ export default function SearchPanel({ EmployeeData, limit, showAvatar }) {
   function filterEmployees() {
     const newList = Data.filter(
       (employee) =>
-        employee.FirstName.toLowerCase().includes(searchText.toLowerCase()) ||
-        employee.LastName.toLowerCase().includes(searchText.toLowerCase()) ||
-        (employee.FirstName.toLowerCase() + ' ' + employee.LastName.toLowerCase()).includes(searchText.toLowerCase()) ||
-        employee.FirstName.charAt(0).toUpperCase() + employee.LastName.charAt(0).toUpperCase() === searchText.toUpperCase()
+        searchText.toLocaleLowerCase() === employee.FirstName.toLowerCase().substring(0, searchText.length) ||
+        searchText.toLocaleLowerCase() === employee.LastName.toLowerCase().substring(0, searchText.length) ||
+        searchText.toLocaleLowerCase() === (employee.FirstName.toLowerCase() + ' ' + employee.LastName.toLowerCase()).substring(0, searchText.length) ||
+        searchText.toLocaleLowerCase() === (employee.FirstName.toLowerCase() + employee.LastName.toLowerCase()).substring(0, searchText.length) ||
+        searchText.toUpperCase() === employee.FirstName.toUpperCase().charAt(0) + employee.LastName.toUpperCase().charAt(0)
     );
     return newList.slice(0, limit || 10);
   }
