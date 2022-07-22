@@ -1,0 +1,102 @@
+$BorderColor:rgb(0, 0, 0);
+.CustomerLoading2Container{
+    width: 100px;
+    aspect-ratio: 1;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: Animation 4s infinite linear;
+    .Icon{
+        position: absolute;
+
+       
+
+        width:50px;
+        height:50px;
+        &.Top2{
+            top: 0;
+            animation: ArrowTop 1s infinite;
+        }
+        &.Bottom2{
+            bottom: 0;
+            animation: ArrowBottom 1s infinite;
+        }
+        &.Left2{
+            left: 0;
+            animation: ArrowLeft 1s infinite;
+        }
+        &.Right2{
+            right: 0;
+            animation: ArrowRight 1s infinite;
+        }
+    }
+}
+
+@keyframes Animation{
+    0%{
+        transform: rotate(0deg);
+    }
+   100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+@keyframes ArrowTop {
+    0% {
+        top: 0;
+        border-bottom: 1px solid $BorderColor;
+    }
+    50% {
+        top: -20%;
+        border-bottom: 1px solid transparent;
+    }
+    100% {
+        top: 0;
+        border-bottom: 1px solid $BorderColor;
+    }
+}
+@keyframes ArrowBottom {
+    0% {
+        bottom: 0;
+        border-top: 1px solid $BorderColor;
+    }
+    50% {
+        bottom: -20%;
+        border-top: 1px solid transparent;
+    }
+    100% {
+        bottom: 0;
+        border-top: 1px solid $BorderColor;
+    }
+}
+@keyframes ArrowLeft {
+    0% {
+        Left: 0;
+        border-right: 1px solid $BorderColor;
+    }
+    50% {
+        Left: -20%;
+        border-right: 1px solid transparent;
+    }
+    100% {
+        Left: 0;
+        border-right: 1px solid $BorderColor;
+    }
+}
+@keyframes ArrowRight {
+    0% {
+        Right: 0;
+        border-left: 1px solid $BorderColor;
+    }
+    50% {
+        Right: -20%;
+        border-left: 1px solid transparent;
+    }
+    100% {
+        Right: 0;
+        border-left: 1px solid $BorderColor;
+    }
+}

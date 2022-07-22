@@ -4,31 +4,25 @@
   position: relative;
   border-radius: 50%;
 }
-
 .LoadingCustom1Container .Icon {
   position: absolute;
   width: 30%;
   height: 30%;
   background-origin: top;
   color: #fff;
-  -webkit-box-shadow: 1px 1px 3px #0000006b, -1px -1px 3px #c2d6fc, inset 1px 1px 3px #0000006b;
-          box-shadow: 1px 1px 3px #0000006b, -1px -1px 3px #c2d6fc, inset 1px 1px 3px #0000006b;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4196078431), -1px -1px 3px rgb(194, 214, 252), inset 1px 1px 3px rgba(0, 0, 0, 0.4196078431);
 }
-
 .LoadingCustom1Container .Icon.Top {
   top: 0;
   left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
-          transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
   -webkit-animation: AnimTopDown 1s infinite;
           animation: AnimTopDown 1s infinite;
 }
-
 .LoadingCustom1Container .Icon.Left {
   top: 50%;
   left: 0;
-  -webkit-transform: translateY(-50%) translateX(-50%) rotate(45deg);
-          transform: translateY(-50%) translateX(-50%) rotate(45deg);
+  transform: translateY(-50%) translateX(-50%) rotate(45deg);
   -webkit-animation: AnimLeftRight 1s infinite;
           animation: AnimLeftRight 1s infinite;
   -webkit-animation-delay: 0.25s;
@@ -58,7 +52,6 @@
     top: 0;
   }
 }
-
 @-webkit-keyframes AnimLeftRight {
   0% {
     left: 0;
@@ -70,7 +63,6 @@
     left: 0;
   }
 }
-
 @keyframes AnimLeftRight {
   0% {
     left: 0;
@@ -81,5 +73,4 @@
   100% {
     left: 0;
   }
-}
-/*# sourceMappingURL=LoadingCustom1.css.map */
+}/*# sourceMappingURL=LoadingCustom1.css.map */

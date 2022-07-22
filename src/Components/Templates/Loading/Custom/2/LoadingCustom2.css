@@ -1,0 +1,165 @@
+.CustomerLoading2Container {
+  width: 100px;
+  aspect-ratio: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-animation: Animation 4s infinite linear;
+          animation: Animation 4s infinite linear;
+}
+.CustomerLoading2Container .Icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+.CustomerLoading2Container .Icon.Top2 {
+  top: 0;
+  -webkit-animation: ArrowTop 1s infinite;
+          animation: ArrowTop 1s infinite;
+}
+.CustomerLoading2Container .Icon.Bottom2 {
+  bottom: 0;
+  -webkit-animation: ArrowBottom 1s infinite;
+          animation: ArrowBottom 1s infinite;
+}
+.CustomerLoading2Container .Icon.Left2 {
+  left: 0;
+  -webkit-animation: ArrowLeft 1s infinite;
+          animation: ArrowLeft 1s infinite;
+}
+.CustomerLoading2Container .Icon.Right2 {
+  right: 0;
+  -webkit-animation: ArrowRight 1s infinite;
+          animation: ArrowRight 1s infinite;
+}
+
+@-webkit-keyframes Animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes Animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes ArrowTop {
+  0% {
+    top: 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+  }
+  50% {
+    top: -20%;
+    border-bottom: 1px solid transparent;
+  }
+  100% {
+    top: 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+  }
+}
+@keyframes ArrowTop {
+  0% {
+    top: 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+  }
+  50% {
+    top: -20%;
+    border-bottom: 1px solid transparent;
+  }
+  100% {
+    top: 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+  }
+}
+@-webkit-keyframes ArrowBottom {
+  0% {
+    bottom: 0;
+    border-top: 1px solid rgb(0, 0, 0);
+  }
+  50% {
+    bottom: -20%;
+    border-top: 1px solid transparent;
+  }
+  100% {
+    bottom: 0;
+    border-top: 1px solid rgb(0, 0, 0);
+  }
+}
+@keyframes ArrowBottom {
+  0% {
+    bottom: 0;
+    border-top: 1px solid rgb(0, 0, 0);
+  }
+  50% {
+    bottom: -20%;
+    border-top: 1px solid transparent;
+  }
+  100% {
+    bottom: 0;
+    border-top: 1px solid rgb(0, 0, 0);
+  }
+}
+@-webkit-keyframes ArrowLeft {
+  0% {
+    Left: 0;
+    border-right: 1px solid rgb(0, 0, 0);
+  }
+  50% {
+    Left: -20%;
+    border-right: 1px solid transparent;
+  }
+  100% {
+    Left: 0;
+    border-right: 1px solid rgb(0, 0, 0);
+  }
+}
+@keyframes ArrowLeft {
+  0% {
+    Left: 0;
+    border-right: 1px solid rgb(0, 0, 0);
+  }
+  50% {
+    Left: -20%;
+    border-right: 1px solid transparent;
+  }
+  100% {
+    Left: 0;
+    border-right: 1px solid rgb(0, 0, 0);
+  }
+}
+@-webkit-keyframes ArrowRight {
+  0% {
+    Right: 0;
+    border-left: 1px solid rgb(0, 0, 0);
+  }
+  50% {
+    Right: -20%;
+    border-left: 1px solid transparent;
+  }
+  100% {
+    Right: 0;
+    border-left: 1px solid rgb(0, 0, 0);
+  }
+}
+@keyframes ArrowRight {
+  0% {
+    Right: 0;
+    border-left: 1px solid rgb(0, 0, 0);
+  }
+  50% {
+    Right: -20%;
+    border-left: 1px solid transparent;
+  }
+  100% {
+    Right: 0;
+    border-left: 1px solid rgb(0, 0, 0);
+  }
+}/*# sourceMappingURL=LoadingCustom2.css.map */
