@@ -94,10 +94,10 @@ function LocationColorBox({ index, selectedDate, locationDetail }) {
             background: locationDetail?.color_code + '49',
           }}
         >
-          {locationDetail?.location} 
+          {locationDetail?.location}
         </div>
       )}
-    </div> : <div className="ScheduleDate"></div>
+    </div> : <div key={index} className={isWeekend ? 'ScheduleDate Weekend' : 'ScheduleDate'}></div>
   );
 }
 
