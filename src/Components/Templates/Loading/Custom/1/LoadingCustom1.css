@@ -1,0 +1,85 @@
+.LoadingCustom1Container {
+  width: 50px;
+  aspect-ratio: 1;
+  position: relative;
+  border-radius: 50%;
+}
+
+.LoadingCustom1Container .Icon {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  background-origin: top;
+  color: #fff;
+  -webkit-box-shadow: 1px 1px 3px #0000006b, -1px -1px 3px #c2d6fc, inset 1px 1px 3px #0000006b;
+          box-shadow: 1px 1px 3px #0000006b, -1px -1px 3px #c2d6fc, inset 1px 1px 3px #0000006b;
+}
+
+.LoadingCustom1Container .Icon.Top {
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+          transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  -webkit-animation: AnimTopDown 1s infinite;
+          animation: AnimTopDown 1s infinite;
+}
+
+.LoadingCustom1Container .Icon.Left {
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%) translateX(-50%) rotate(45deg);
+          transform: translateY(-50%) translateX(-50%) rotate(45deg);
+  -webkit-animation: AnimLeftRight 1s infinite;
+          animation: AnimLeftRight 1s infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+}
+
+@-webkit-keyframes AnimTopDown {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 100%;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes AnimTopDown {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 100%;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@-webkit-keyframes AnimLeftRight {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes AnimLeftRight {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+/*# sourceMappingURL=LoadingCustom1.css.map */

@@ -1,0 +1,54 @@
+.LoadingCustom1Container {
+    width: 50px;
+    aspect-ratio: 1;
+
+    position: relative;
+    border-radius: 50%;
+
+
+    .Icon {
+        position: absolute;
+        width: 30%;
+        height: 30%;
+        background-origin: top;
+        color: #fff;
+        box-shadow: 1px 1px 3px #0000006b, -1px -1px 3px rgb(194, 214, 252), inset 1px 1px 3px #0000006b;
+
+        &.Top {
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%) rotate(45deg);
+            animation: AnimTopDown 1s infinite;
+        }
+        &.Left {
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%) translateX(-50%) rotate(45deg);
+            animation: AnimLeftRight 1s infinite;
+            animation-delay: 0.25s;
+        }
+    }
+}
+@keyframes AnimTopDown {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: 100%;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes AnimLeftRight {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 100%;
+    }
+    100% {
+        left: 0;
+    }
+}
