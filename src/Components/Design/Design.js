@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import './Design.css';
-import LoadingCustom2 from '../Templates/Loading/Custom/2/LoadingCustom2';
-
+import LoadingPanel1 from '../Templates/Loading/Panel/1/LoadingPanel1';
+import LoadingIcon from '../Templates/Loading/Icon/LoadingIcon1';
 export default function Design() {
   return (
     <div className='Design'>
-      <LoadingCustom2/>
+      <LoadingPanel1 icon={<LoadingIcon color={"#000"} iconNo={18} duration='2s'/>} dev={true}/>
+      {/* <LoadingIcon iconNo={18} duration='2s'/> */}
     </div>
   );
 }
